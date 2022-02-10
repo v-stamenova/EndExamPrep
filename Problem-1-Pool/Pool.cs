@@ -51,12 +51,12 @@ namespace Problem_1_Pool
 			}
 		}
 
-		public double Volume()
+		public virtual double Volume()
 		{
 			return (Math.PI * Math.Pow(this.radius, 2) * this.height) / 1000000;
 		}
 
-		public double FillPrice(double pricePerCube, int tax)
+		public virtual double FillPrice(double pricePerCube, int tax)
 		{
 			return Volume() * pricePerCube * (1 + tax / 100);
 		}
