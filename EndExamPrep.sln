@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem-1", "Problem-1", "{
 		Problem-1-Pool-Text.md = Problem-1-Pool-Text.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem-1-Pool", "Problem-1-Pool\Problem-1-Pool.csproj", "{F011FE42-3A40-46EB-9B77-94C1ECA5EB6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem-1-2-Pool", "Problem-1-Pool\Problem-1-2-Pool.csproj", "{F011FE42-3A40-46EB-9B77-94C1ECA5EB6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

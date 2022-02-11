@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Problem_1_Pool
+namespace Problem_1_2_Pool
 {
 	class DoubleSidedPool : Pool
 	{
