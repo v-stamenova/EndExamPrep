@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Problem_1_2_Pool
+namespace Problem_1_2_4_Pool
 {
 	class Pool
 	{

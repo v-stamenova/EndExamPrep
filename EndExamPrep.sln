@@ -5,19 +5,19 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FirstFile", "FirstFile", "{AFECAC21-F0A3-45A3-BBD0-545A2451ACD9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem-1-2", "Problem-1-2", "{75CAD05E-D980-49E5-9176-86862211639D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem-1-2-4", "Problem-1-2-4", "{75CAD05E-D980-49E5-9176-86862211639D}"
 	ProjectSection(SolutionItems) = preProject
-		Problem-1-Pool-Text.md = Problem-1-Pool-Text.md
+		Problem-1-2-4-Pool-Text.md = Problem-1-2-4-Pool-Text.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem-1-2-Pool", "Problem-1-Pool\Problem-1-2-Pool.csproj", "{F011FE42-3A40-46EB-9B77-94C1ECA5EB6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem-1-2-4-Pool", "Problem-1-Pool\Problem-1-2-4-Pool.csproj", "{F011FE42-3A40-46EB-9B77-94C1ECA5EB6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem-3", "Problem-3", "{19E2A9E4-E8F0-44FA-8067-0884B48B8218}"
 	ProjectSection(SolutionItems) = preProject
 		Problem-3-CoordSystem-Text.txt = Problem-3-CoordSystem-Text.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-3-CoordSystem", "Problem-3-CoordSystem\Problem-3-CoordSystem.csproj", "{859D6808-662F-4CD4-90BD-7215387A15D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem-3-CoordSystem", "Problem-3-CoordSystem\Problem-3-CoordSystem.csproj", "{859D6808-662F-4CD4-90BD-7215387A15D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

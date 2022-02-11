@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Problem_1_2_Pool
+namespace Problem_1_2_4_Pool
 {
 	class DoubleSidedPool : Pool
 	{
@@ -35,11 +33,6 @@ namespace Problem_1_2_Pool
 		public override double Volume()
 		{
 			return (Math.PI * this.Height * Math.Abs(Math.Pow(this.Radius, 2) - Math.Pow(this.OuterRadiusInCm, 2))) / 1000000;
-		}
-
-		public override double FillPrice(double pricePerCube, int tax)
-		{
-			return this.Volume() * pricePerCube * (1 + tax / 100);
 		}
 	}
 }
