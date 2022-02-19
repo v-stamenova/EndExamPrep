@@ -7,6 +7,7 @@ namespace Problem_8_School
 	class Program
 	{
 		static List<Class> classes = new List<Class>();
+		static List<Teacher> teachers = new List<Teacher>();
 
 		static void Main(string[] args)
 		{
@@ -42,6 +43,22 @@ namespace Problem_8_School
 
 			filteredClasses.ForEach(x => Console.WriteLine($"{x.Name} - {x.StudentsCount} ученици"));
 			Console.WriteLine($"Общо: {filteredClasses.Sum(x => x.StudentsCount)} ученици");
+		}
+
+		static void DisplayAllTeachers() => teachers.ForEach(x => Console.WriteLine(x));
+
+		static void GetTeachers(string city, string speciality)
+		{
+			List<Teacher> filteredTeachers = teachers.Where(x => x.City == city && x.Speciality == speciality).ToList();
+
+			filteredTeachers.ForEach(x => Console.WriteLine(x));
+		}
+
+		static void GetTeachers(string school)
+		{
+			List<Teacher> filteredTeachers = teachers.Where(x => x.Name == school).ToList();
+
+			filteredTeachers.ForEach(x => Console.WriteLine($"{x.TeacherName} <-> {x.Speciality} <-> {x.WorkExperience}"));
 		}
 	}
 }

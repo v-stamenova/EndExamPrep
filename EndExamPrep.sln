@@ -40,12 +40,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem-7", "Problem-7", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-7-Hospital", "Problem-7-Hospital\Problem-7-Hospital.csproj", "{E6FD3A35-2F54-4D1B-B595-5BC12CD28821}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem-8", "Problem-8", "{82FD1039-28AE-48C5-9D70-8C07F70D2033}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem-8-9", "Problem-8-9", "{82FD1039-28AE-48C5-9D70-8C07F70D2033}"
 	ProjectSection(SolutionItems) = preProject
 		Problem-8-School-Text.md = Problem-8-School-Text.md
+		Problem-9-School-Text.md = Problem-9-School-Text.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-8-School", "Problem-8-School\Problem-8-School.csproj", "{3B893176-D8AB-4894-A929-557DDCD029D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem-8-School", "Problem-8-School\Problem-8-School.csproj", "{3B893176-D8AB-4894-A929-557DDCD029D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
