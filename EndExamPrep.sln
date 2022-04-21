@@ -90,6 +90,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-1-TwoDimensionalArr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-2-TwoDimensionalArrays", "Problem-2-TwoDimensionalArrays\Problem-2-TwoDimensionalArrays.csproj", "{F2966AF0-538A-46B7-A5A5-7EF99881324D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem-3-TwoDimensionalArrays", "Problem-3-TwoDimensionalArrays\Problem-3-TwoDimensionalArrays.csproj", "{2E98DCF2-E5A0-4502-AD9A-0A2BDA49B230}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -168,6 +170,10 @@ Global
 		{F2966AF0-538A-46B7-A5A5-7EF99881324D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2966AF0-538A-46B7-A5A5-7EF99881324D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2966AF0-538A-46B7-A5A5-7EF99881324D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E98DCF2-E5A0-4502-AD9A-0A2BDA49B230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E98DCF2-E5A0-4502-AD9A-0A2BDA49B230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E98DCF2-E5A0-4502-AD9A-0A2BDA49B230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E98DCF2-E5A0-4502-AD9A-0A2BDA49B230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +205,7 @@ Global
 		{19A1C3D1-0CB6-4EB2-AE21-9B32C8FAE820} = {A7F23891-AD83-438F-9E2A-54593D861389}
 		{A7012BDF-C7A2-4AB3-834E-616B75AD2EDB} = {748B96B1-EA76-43CD-9968-1B3BFCA5B2F9}
 		{F2966AF0-538A-46B7-A5A5-7EF99881324D} = {748B96B1-EA76-43CD-9968-1B3BFCA5B2F9}
+		{2E98DCF2-E5A0-4502-AD9A-0A2BDA49B230} = {748B96B1-EA76-43CD-9968-1B3BFCA5B2F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DEA4A6B5-6839-4D3D-BB53-D85B8D1CAF09}
